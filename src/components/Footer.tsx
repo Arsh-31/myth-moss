@@ -1,11 +1,11 @@
 export const Footer = () => {
   return (
-    <footer className="mt-10 py-8 bg-transparent english">
+    <footer className="mt-2 py-2 bg-transparent english px-4">
       {/* Divider */}
       <hr className="border-t-2" />
 
       {/* "The End" */}
-      <h1 className="text-center text-4xl md:text-5xl font-extrabold my-6 tracking-wider font-cinzel select-none">
+      <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-extrabold my-6 tracking-wider font-cinzel select-none">
         ❦ The End ❦
       </h1>
 
@@ -13,15 +13,15 @@ export const Footer = () => {
       <hr className="border-t-2 mb-6" />
 
       {/* Footer Bottom Info */}
-      <div className="flex px-6 flex-col md:flex-row justify-between items-center text-lg font-semibold">
+      <div className="flex flex-col sm:flex-row items-center justify-between text-base sm:text-lg font-semibold gap-y-3 sm:gap-y-0 text-center sm:text-left">
         {/* Left Side */}
-        <div className="mb-2 md:mb-0">
-          <span className="text-xl">Mist & Moss</span>{" "}
-          <span className="text-2xl">☯︎</span>
+        <div>
+          <span className="text-lg sm:text-xl">Mist & Moss</span>{" "}
+          <span className="text-xl sm:text-2xl">☯︎</span>
         </div>
 
         {/* Right Side */}
-        <div className="space-x-4">
+        <div className="space-x-3">
           <a
             href="https://github.com"
             className="hover:underline hover:text-black transition-all duration-150"
