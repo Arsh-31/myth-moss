@@ -134,7 +134,7 @@ export const Middle = () => {
                   reflects not just our stories, but our memories. That every
                   constellation is a kind of celestial journal, archiving what
                   we fear to forget. Some even believe that when stars fade,
-                  it's not from time, but from being forgotten.
+                  it&apos;s not from time, but from being forgotten.
                 </p>
                 <Image
                   width={600}
@@ -178,12 +178,12 @@ export const Middle = () => {
                   waiting to be named again.
                 </p>
                 <p className="text-justify">
-                  Astronomers in forgotten observatories once spoke of "dark
-                  constellations" — not composed of stars, but of absence. Gaps
-                  so precise they formed patterns too deliberate to be random.
-                  Some say these are celestial ghosts, constellations that once
-                  were and might one day return when memory is strong enough to
-                  pull them back into light.
+                  Astronomers in forgotten observatories once spoke of
+                  &quot;dark constellations&quot; — not composed of stars, but
+                  of absence. Gaps so precise they formed patterns too
+                  deliberate to be random. Some say these are celestial ghosts,
+                  constellations that once were and might one day return when
+                  memory is strong enough to pull them back into light.
                 </p>
                 <h3 className="font-bold italic text-lg md:text-xl border-t border-black pt-5 mt-6">
                   What the Sky Keeps
