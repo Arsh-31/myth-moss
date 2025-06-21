@@ -1,36 +1,22 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mist & Moon
 
-## Getting Started
+A whimsical, parchment-styled digital newspaper chronicling enchanted flora, forgotten constellations, lunar myths, and eerie folklore.  
+Built with a love for mystery, storytelling, and the strange beauty of old paper.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🕯️ Vintage newspaper layout with aged textures
+- 🌸 Articles on tulips, hyacinths, mushrooms, the moon & more
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Inspiration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project was inspired by a magical newspaper-style site I discovered on GitHub.  
+All design and code are my own, but the concept was sparked by that creator’s unique vision.  
+Grateful for the spark — this is my own take on that inspiration.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was inspired by The-Daily-Crimes by [@rinkitadhana](https://github.com/rinkitadhana).  
+I really liked it and wanted to build something myself in a similar spirit — with my own stories.
 
-## Learn More
+## Final Note
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> Not all news is new — some of it is ancient and waiting.

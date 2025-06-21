@@ -5,14 +5,14 @@ export const Middle = () => {
   return (
     <div className="grid grid-cols-1 py-4 md:grid-cols-5 english mx-auto">
       {/* Left Column - Mushrooms */}
-      <div className="col-span-2 md:pr-6 md:border-r-2 border-black pb-8 md:pb-0 border-b-2 md:border-b-0 space-y-8">
+      <div className="col-span-2 md:pr-6 md:border-r-2 border-black pb-8 md:pb-0 border-b-2 md:border-b-0 space-y-3">
         <div className="w-full">
           <Image
             width={600}
             height={400}
-            src="/images/img2.jpg"
+            src="/gifs/mushroom.gif"
             alt="Mysterious mushrooms growing in forest"
-            className="w-full border-2 border-black"
+            className="w-full border-2 border-black md:border-none"
             priority
           />
         </div>
@@ -21,7 +21,7 @@ export const Middle = () => {
           <h2 className="text-3xl md:text-4xl font-bold leading-tight">
             Beneath the Cap: The Secret Lives of Mushrooms
           </h2>
-          <p className="text-xs uppercase tracking-widest border-b border-black pb-3">
+          <p className="text-xs uppercase tracking-widest">
             Fungal Whispers & Forest Oddities
           </p>
         </div>
@@ -89,19 +89,19 @@ export const Middle = () => {
       </div>
 
       {/* Right Column - Sky and Hyacinths */}
-      <div className="col-span-3 space-y-8 mt-10 md:mt-0 md:ml-5">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <div className="col-span-3 space-y-1 mt-10 md:mt-0 md:ml-5">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-5">
           {/* Main Sky Article */}
-          <div className="md:col-span-2 space-y-6">
+          <div className="md:col-span-2 space-y-3">
             <h2 className="text-3xl md:text-5xl font-bold leading-tight">
               The Sky Remembers: Constellations and the Cartography of Memory
             </h2>
-            <p className="text-xs uppercase tracking-widest border-b border-black pb-3">
+            <p className="text-xs uppercase tracking-widest">
               Stellar Myths & Forgotten Astronomy
             </p>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-              <div className="space-y-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6">
+              <div className="space-y-1">
                 <p className="text-justify first-line:font-bold first-line:text-lg">
                   Before there were maps of land, there were maps of stars.
                   Before there were names for rivers and mountains and kings,
@@ -114,7 +114,7 @@ export const Middle = () => {
                   a sentence, a scar.
                 </p>
 
-                <h3 className="font-bold italic text-lg md:text-xl border-t border-black pt-5 mt-6">
+                <h3 className="font-bold italic text-lg md:text-xl pt-1 mt-2">
                   The First Drawings Were Above Us
                 </h3>
                 <p className="text-justify">
@@ -139,9 +139,9 @@ export const Middle = () => {
                 <Image
                   width={600}
                   height={400}
-                  src="/images/img4.jpg"
+                  src="/gifs/stars.gif"
                   alt="Ancient star map with constellations"
-                  className="w-full border-2 border-black rounded-md"
+                  className="my-5 w-full border-2 border-black"
                 />
                 <p className="text-justify">
                   In remote regions, shamans once claimed to speak with the
@@ -151,8 +151,8 @@ export const Middle = () => {
                 </p>
               </div>
 
-              <div className="space-y-6">
-                <p className="italic text-gray-700 text-justify">
+              <div className="space-y-3">
+                <p className="italic text-justify">
                   Some constellations don&apos;t appear in telescopes. They only
                   show themselves in dreams, old photographs, or moonlight on
                   frozen lakes.
@@ -164,7 +164,7 @@ export const Middle = () => {
                   place they&apos;ve never been but somehow remember.
                 </p>
 
-                <h3 className="font-bold italic text-lg md:text-xl border-t border-black pt-5 mt-6">
+                <h3 className="font-bold italic text-lg md:text-xl pt-1 mt-2">
                   The Ones We Forgot
                 </h3>
                 <p className="text-justify">
@@ -185,7 +185,7 @@ export const Middle = () => {
                   constellations that once were and might one day return when
                   memory is strong enough to pull them back into light.
                 </p>
-                <h3 className="font-bold italic text-lg md:text-xl border-t border-black pt-5 mt-6">
+                <h3 className="font-bold italic text-lg md:text-xl pt-1 mt-2">
                   What the Sky Keeps
                 </h3>
                 <p className="text-justify">
@@ -196,27 +196,28 @@ export const Middle = () => {
                 <p className="text-justify">
                   And maybe that&apos;s what matters most. That we looked up
                   into the impossible darkness and made meaning from it. We made
-                  maps of our grief. We made legends out of loneliness.
+                  maps of our grief. We made legends out of loneliness, wonder,
+                  silence, longing, and light.
                 </p>
-                <p className="text-justify">
+                {/* <p className="text-justify">
                   Somewhere between the stars and the silence, we found
                   something to hold on to — even if it was only ancient light,
                   still pretending to be present.
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
 
           {/* Hyacinths Sidebar */}
-          <div className="md:border-l-2 md:pl-6 border-black space-y-6">
+          <div className="md:border-l-2 md:pl-6 border-black space-y-3">
             <h2 className="text-2xl md:text-3xl font-bold leading-tight">
               The Scent That Lingers After Death: On Hyacinths
             </h2>
-            <p className="text-xs uppercase tracking-widest border-b border-black pb-3">
+            <p className="text-xs uppercase tracking-widest">
               Fragrant Folklore & Floral Sorrows
             </p>
 
-            <div className="space-y-6">
+            <div className="space-y-3">
               <p className="text-justify first-line:font-bold first-line:text-lg">
                 It begins with a scent — delicate, almost too sweet. A scent
                 that arrives before the flower does, drifting through open
@@ -240,7 +241,7 @@ export const Middle = () => {
                 width={600}
                 height={400}
                 alt="Delicate blue hyacinth flowers"
-                className="w-full border-2 border-black my-5 rounded-md"
+                className="w-full border-2 border-black my-5 md:border-none"
               />
 
               <p className="text-justify">
@@ -253,12 +254,12 @@ export const Middle = () => {
                 bloom, someone you once loved is thinking of you — quietly,
                 tenderly, still.
               </p>
-              <p className="text-justify">
+              {/* <p className="text-justify">
                 In Victorian flower language, the hyacinth meant different
                 things: sincerity, sorrow, rebirth. A message left in petals
                 when voices broke or time ran thin. Blue for regret. Purple for
                 asking forgiveness. White for love unspoken.
-              </p>
+              </p> */}
               <p className="text-justify">
                 Some cultures believe hyacinths bloom best where grief has
                 lingered long. That their roots crave memory — growing stronger

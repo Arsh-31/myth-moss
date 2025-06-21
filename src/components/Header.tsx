@@ -82,7 +82,7 @@ export const Header = () => {
       <div className="flex justify-center mt-2">
         <div className="w-64 sm:w-80">
           <Image
-            src="/images/img67.png"
+            src="/images/img1.png"
             alt="Myth & Moss Logo"
             width={320}
             height={100}

@@ -5,6 +5,9 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Mist & Moss",
   description: "The newspaper",
+  icons: {
+    icon: "/images/moon2.png",
+  },
 };
 
 export default function RootLayout({

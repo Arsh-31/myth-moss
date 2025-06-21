@@ -35,14 +35,13 @@ export const Top = () => {
               loosens, when the moon leans low enough to hear secrets no one
               meant to speak.
             </p>
-
             <figure className="my-4">
               <Image
-                src="/images/moon2.png"
+                src="/gifs/moon.gif"
                 alt="The moon appearing unusually large and colorful"
                 width={800}
                 height={500}
-                className="w-full rounded-md"
+                className="w-full"
               />
             </figure>
 
@@ -99,13 +98,9 @@ export const Top = () => {
               again.
             </p>
 
-            <p>
-              So tonight, when you look up, and she is full and round and
-              watching — more mirror than moon, more sentinel than stone —
-              remember this:
-            </p>
+            <p>So tonight, when you look up,remember this:</p>
 
-            <p className="text-gray-600">
+            <p className="">
               Do not smile. Do not speak your wish aloud. She may already know
               it. And she may not be kind.
             </p>
@@ -128,11 +123,11 @@ export const Top = () => {
           {/* Full-width image */}
           <div className="md:col-span-3">
             <Image
-              src="/images/tulip.jpg"
+              src="/gifs/Tulip.gif"
               width={800}
               height={400}
               alt="Mysterious tulips with unusual patterns"
-              className="w-full rounded-md border-2"
+              className="w-full border-2"
             />
           </div>
 

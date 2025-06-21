@@ -1,14 +1,15 @@
 import { Container } from "./Main";
 import { Footer } from "./Footer";
 import { Header } from "./Header";
+import Paper from "./Paper";
 
 function Newspaper() {
   return (
-    <div className="p-4 font-cormorant">
+    <Paper>
       <Header />
       <Container />
       <Footer />
-    </div>
+    </Paper>
   );
 }
 
