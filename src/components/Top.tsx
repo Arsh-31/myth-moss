@@ -13,12 +13,12 @@ export const Top = () => {
               <h1 className="text-2xl sm:text-3xl font-bold mb-2">
                 The Moon Is Not What It Was
               </h1>
-              <p className="text-sm text-gray-600">
+              <p className="text-sm tracking-widest">
                 Filed under: Celestial Oddities & Lunar Whispers
               </p>
             </header>
 
-            <p>
+            <p className="first-line:font-bold first-line:text-lg">
               They say the moon has no light of her own — that she merely
               borrows the sun&apos;s shine, a pale mimicry of brilliance. But
               those who have watched her long enough, in silence and in shadow,
@@ -41,13 +41,11 @@ export const Top = () => {
                 alt="The moon appearing unusually large and colorful"
                 width={800}
                 height={500}
-                className="w-full"
+                className="w-full select-none"
               />
             </figure>
 
-            <h2 className="text-xl font-semibold font-cormorant mt-4">
-              Of Eyes and Echoes
-            </h2>
+            <h2 className="text-xl font-semibold mt-4">Of Eyes and Echoes</h2>
 
             <p>
               Ancient sailors spoke of seeing eyes blink on the moon&apos;s
@@ -114,7 +112,7 @@ export const Top = () => {
           <h1 className="text-3xl sm:text-5xl font-bold">
             The Whispering Madness of Tulips
           </h1>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm tracking-widest">
             Filed under: Enchanted Flora & Cursed Botany
           </p>
         </div>
@@ -127,13 +125,13 @@ export const Top = () => {
               width={800}
               height={400}
               alt="Mysterious tulips with unusual patterns"
-              className="w-full border-2"
+              className="w-full border-2 select-none"
             />
           </div>
 
           {/* Column 1 */}
           <div className="space-y-4 text-justify">
-            <p>
+            <p className="first-line:font-bold first-line:text-lg">
               They bloom in silence. Beneath the spring sun and the mourning
               dew, the tulips rise — soft, elegant, unthielding. But let not
               their beauty deceive you, dear reader. For few know this: the

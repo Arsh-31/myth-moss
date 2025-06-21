@@ -86,7 +86,7 @@ export const Header = () => {
             alt="Myth & Moss Logo"
             width={320}
             height={100}
-            className="object-contain w-full h-auto"
+            className="object-contain w-full h-auto select-none"
             priority
           />
         </div>

@@ -12,17 +12,17 @@ export const Middle = () => {
             height={400}
             src="/gifs/mushroom.gif"
             alt="Mysterious mushrooms growing in forest"
-            className="w-full border-2 border-black md:border-none"
+            className="w-full border-2 border-black md:border-none select-none"
             priority
           />
         </div>
 
         <div className="space-y-3">
-          <h2 className="text-3xl md:text-4xl font-bold leading-tight">
+          <h2 className="text-3xl md:text-4xl font-bold">
             Beneath the Cap: The Secret Lives of Mushrooms
           </h2>
-          <p className="text-xs uppercase tracking-widest">
-            Fungal Whispers & Forest Oddities
+          <p className="text-sm tracking-widest">
+            Filed under: Fungal Whispers & Forest Oddities
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export const Middle = () => {
             </div>
 
             <div className="space-y-5">
-              <h3 className="font-bold italic text-lg md:text-xl">
+              <h3 className="text-lg font-semibold">
                 Fairy Rings & Forbidden Circles
               </h3>
               <p className="text-justify">
@@ -96,12 +96,12 @@ export const Middle = () => {
             <h2 className="text-3xl md:text-5xl font-bold leading-tight">
               The Sky Remembers: Constellations and the Cartography of Memory
             </h2>
-            <p className="text-xs uppercase tracking-widest">
-              Stellar Myths & Forgotten Astronomy
+            <p className="text-sm tracking-widest">
+              Filed under: Stellar Myths & Forgotten Astronomy
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-x-6">
-              <div className="space-y-1">
+              <div className="space-y-3">
                 <p className="text-justify first-line:font-bold first-line:text-lg">
                   Before there were maps of land, there were maps of stars.
                   Before there were names for rivers and mountains and kings,
@@ -114,7 +114,7 @@ export const Middle = () => {
                   a sentence, a scar.
                 </p>
 
-                <h3 className="font-bold italic text-lg md:text-xl pt-1 mt-2">
+                <h3 className="text-lg font-semibold md:text-xl pt-1 mt-2">
                   The First Drawings Were Above Us
                 </h3>
                 <p className="text-justify">
@@ -124,7 +124,7 @@ export const Middle = () => {
                   understand the sky — but to understand ourselves.
                 </p>
 
-                <p className="italic text-gray-700 my-5">
+                <p className=" my-5">
                   &quot;That must be someone who lived.&quot;
                   <br />
                   &quot;That must be something that happened.&quot;
@@ -141,7 +141,7 @@ export const Middle = () => {
                   height={400}
                   src="/gifs/stars.gif"
                   alt="Ancient star map with constellations"
-                  className="my-5 w-full border-2 border-black"
+                  className="my-5 w-full  select-none"
                 />
                 <p className="text-justify">
                   In remote regions, shamans once claimed to speak with the
@@ -152,7 +152,7 @@ export const Middle = () => {
               </div>
 
               <div className="space-y-3">
-                <p className="italic text-justify">
+                <p className=" text-justify">
                   Some constellations don&apos;t appear in telescopes. They only
                   show themselves in dreams, old photographs, or moonlight on
                   frozen lakes.
@@ -164,7 +164,7 @@ export const Middle = () => {
                   place they&apos;ve never been but somehow remember.
                 </p>
 
-                <h3 className="font-bold italic text-lg md:text-xl pt-1 mt-2">
+                <h3 className="text-lg font-semibold md:text-xl pt-1 mt-2">
                   The Ones We Forgot
                 </h3>
                 <p className="text-justify">
@@ -185,7 +185,7 @@ export const Middle = () => {
                   constellations that once were and might one day return when
                   memory is strong enough to pull them back into light.
                 </p>
-                <h3 className="font-bold italic text-lg md:text-xl pt-1 mt-2">
+                <h3 className="text-lg font-semibold md:text-xl pt-1 mt-2">
                   What the Sky Keeps
                 </h3>
                 <p className="text-justify">
@@ -199,11 +199,6 @@ export const Middle = () => {
                   maps of our grief. We made legends out of loneliness, wonder,
                   silence, longing, and light.
                 </p>
-                {/* <p className="text-justify">
-                  Somewhere between the stars and the silence, we found
-                  something to hold on to — even if it was only ancient light,
-                  still pretending to be present.
-                </p> */}
               </div>
             </div>
           </div>
@@ -213,8 +208,8 @@ export const Middle = () => {
             <h2 className="text-2xl md:text-3xl font-bold leading-tight">
               The Scent That Lingers After Death: On Hyacinths
             </h2>
-            <p className="text-xs uppercase tracking-widest">
-              Fragrant Folklore & Floral Sorrows
+            <p className="text-sm tracking-widest">
+              Filed under: Fragrant Folklore & Floral Sorrows
             </p>
 
             <div className="space-y-3">
@@ -241,7 +236,7 @@ export const Middle = () => {
                 width={600}
                 height={400}
                 alt="Delicate blue hyacinth flowers"
-                className="w-full border-2 border-black my-5 md:border-none"
+                className="w-full my-5  select-none"
               />
 
               <p className="text-justify">

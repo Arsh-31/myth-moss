@@ -1,12 +1,14 @@
 export const Footer = () => {
   return (
     <footer className="mt-2 py-2 bg-transparent english no-select">
+      <hr className="border-t-2 mb-0.5" />
       <hr className="border-t-2" />
 
       <h1 className="text-center text-3xl sm:text-4xl md:text-5xl font-extrabold my-6 tracking-wider font-cinzel select-none">
         ❦ The End ❦
       </h1>
 
+      <hr className="border-t-2 m-0.5" />
       <hr className="border-t-2 mb-6" />
 
       {/* Footer Bottom Info */}
@@ -18,7 +20,7 @@ export const Footer = () => {
 
         <div className="space-x-3">
           <a
-            href="https://github.com"
+            href="https://github.com/arsh-31"
             className="hover:underline hover:text-black transition-all duration-150"
             target="_blank"
             rel="noopener noreferrer"
@@ -27,7 +29,7 @@ export const Footer = () => {
           </a>
           <span>·</span>
           <a
-            href="#"
+            href=""
             className="hover:underline hover:text-black transition-all duration-150"
           >
             Wohoo
